@@ -1,0 +1,37 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'hecaslab' on host 'hecaslab-VirtualBox' (Linux_x86_64 version 5.4.0-193-generic) on Wed Sep 11 19:34:39 CST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04 LTS
+INFO: [HLS 200-10] In directory '/home/hecaslab/r12525070/course-lab_1'
+Sourcing Tcl script '/home/hecaslab/r12525070/course-lab_1/lab1/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source /home/hecaslab/r12525070/course-lab_1/lab1/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project lab1 
+INFO: [HLS 200-10] Opening project '/home/hecaslab/r12525070/course-lab_1/lab1'.
+INFO: [HLS 200-1510] Running: set_top multip_2num 
+INFO: [HLS 200-1510] Running: add_files lab1/Multiplication.cpp 
+INFO: [HLS 200-10] Adding design file 'lab1/Multiplication.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files lab1/Multiplication.h 
+INFO: [HLS 200-10] Adding design file 'lab1/Multiplication.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb lab1/MultipTester.cpp 
+INFO: [HLS 200-10] Adding test bench file 'lab1/MultipTester.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/hecaslab/r12525070/course-lab_1/lab1/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 11 19:34:55 2024...
+INFO: [HLS 200-802] Generated output file lab1/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 6.91 seconds. CPU system time: 3.4 seconds. Elapsed time: 16.15 seconds; current allocated memory: -1026.680 MB.
+INFO: [HLS 200-112] Total CPU user time: 8.72 seconds. Total CPU system time: 4.39 seconds. Total elapsed time: 20.04 seconds; peak allocated memory: 469.340 MB.
