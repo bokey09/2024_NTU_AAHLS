@@ -8,6 +8,7 @@
 ![Screenshot from 2024-10-03 18-04-29](https://github.com/user-attachments/assets/61497c61-35b9-480e-989f-10fab601e984)
 ![Screenshot from 2024-10-03 18-05-24](https://github.com/user-attachments/assets/22c601a7-4c42-4c12-95f1-52688dbb8a72)
 
+![373208714-61497c61-35b9-480e-989f-10fab601e984](https://github.com/user-attachments/assets/5caddb55-2e1a-45ed-ae2c-d54ac2633ecd)
 
 
 
