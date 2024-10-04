@@ -1,3 +1,5 @@
+## Synthesis:
+![Screenshot from 2024-10-04 14-16-29](https://github.com/user-attachments/assets/466721eb-c0c7-4bff-a996-88f084dea311)
 ## Block Diagram:
 ![Screenshot from 2024-10-04 12-24-29](https://github.com/user-attachments/assets/96e7f604-7135-4a00-ae3f-ab357b8fedfb)
 ## Address Editor:
