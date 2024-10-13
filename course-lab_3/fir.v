@@ -60,7 +60,7 @@ module fir
   localparam S_OP = 3'd2;
   localparam S_LITE = 3'd3;
   localparam S_DONE = 3'd4;
-  reg [3-1:0] state, nxt_state;
+  reg [2:0] state, nxt_state;
 
 
   always@(posedge axis_clk or negedge axis_rst_n)
