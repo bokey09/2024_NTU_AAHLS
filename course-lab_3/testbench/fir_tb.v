@@ -169,6 +169,8 @@ module fir_tb
   end
 
   integer i;
+  reg finish_1 = 1'b0;
+  reg finish_2 = 1'b0;
   initial
   begin
     while(!axis_rst_n)
@@ -230,8 +232,6 @@ module fir_tb
   reg error;
   reg error_coef;
   reg status_error;
-  reg finish_1 = 1'b0;
-  reg finish_2 = 1'b0;
 
   initial
   begin
